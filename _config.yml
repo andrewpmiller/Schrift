@@ -1,40 +1,28 @@
-## Configuration file for Jekyll
-## & Schrift template
-
-#
-# Jekyll configuration
-# --------------------
 
 # Global
-url: http://domain.xyz/
+url: http://presesequences.com
 
 # Build options
-markdown:    kramdown
-permalink:   date
-
-
-
-#
+markdown: kramdown
+permalink: date
 # Schrift template configuration
 # ------------------------------
 
-# Enter below your name or pseudo & a short description
-#    | These don't appear on the website. They are used to set the <META>s
-author: Your Name
-description: A clean and minimalist Jekyll template. Designed for prose.
-title: Schrift template  # Appears in the window title of the browser. Stands alone on the homepage, sits beside the post title on post pages.
+# For META headers
+author: Andrew Miller
+description: Musings about designing and making things
 
+
+title: (pre)sequences  # Appears in the window title of the browser. Stands alone on the homepage, sits beside the post title on post pages.
 # Enter below the headtitle of your weblog/website
 #    | It appears on the main navigation bar. You can use <span></span> to nicely fade out some part of it
-maintitle: Schrift <span>for Jekyll</span>
+maintitle: (pre)sequences
 
 # Enter below a short description that will sit next to your head title. (keep it short)
 #    | {optional}
-maindesc: <a href=https://github.com/Schoewilliam/Schrift><span class=oi data-glyph=fork></span> Fork me</a>
+# maindesc: <a href=https://github.com/Schoewilliam/Schrift><span class=oi data-glyph=fork></span> Fork me</a>
 
-# Enter below the items of your main menu
-#    | Keep it a small amount. It is designed for a small menu.
-#    | Schrit comes with the openiconic icon pack. Check out https://useiconic.com/open to select an icon for each menu item.
+# https://useiconic.com/open for icon reference
 menus:
 - text: Archive
   url: /archive
@@ -49,4 +37,4 @@ menus:
 # Enter an invitation message
 #    | It lies right beneath every post to invite your readers to react and comment
 #    | {optional}
-invitationmsg: If you have any feedback you would like me to read, please don't hesitate to send them over to <a href=mailto:you@domain.xyz>you@domain.xyz</a>.
+#invitationmsg: If you have any feedback you would like me to read, please don't hesitate to send them over to <a href=mailto:you@domain.xyz>you@domain.xyz</a>.
