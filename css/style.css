@@ -19,7 +19,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: #57AD68;
+    color: rgb(54, 141, 223);
     cursor: pointer;
     outline:0;
     transition: all .2s;
@@ -30,12 +30,12 @@ a:hover {
 }
 article a:hover { text-decoration: underline; }
 
-pre, code {
-    background-color: #FAF8F2;
+/* pre, code {
+    background-color: #3F3F3F;
     color: #777;
     border-radius: 2px;
     font-size: 90%;
-}
+} */
 
 em em {
     font-style: normal;
@@ -286,7 +286,7 @@ hr.menu {
       -webkit-transition: all .2s;
 }
 #ntitle .nlinks a:hover .oi {
-    background-color: #57AD68;
+    background-color: rgb(54, 141, 223);
     color: #fff !important;
 }
 #ntitle .button {
@@ -309,8 +309,8 @@ hr.menu {
     width: auto;
     padding: 0 16px;
     overflow: hidden;
-    color: #57AD68;
-    border-color: #57AD68;
+    color: rgb(54, 141, 223);
+    border-color:rgb(54, 141, 223);
 }
 #ntitle.expanded .button.menumarker {
     transform: rotate(-90deg);
@@ -318,7 +318,7 @@ hr.menu {
 }
 #ntitle .nlinks a .oi {
     margin-right: 5px;
-    color: #57AD68;
+    color: rgb(54, 141, 223);
     width: 35px;
     height: 35px;
     line-height: 40px;
@@ -492,7 +492,7 @@ ul {
     list-style: outside square;
 }
 
-a.bouton {
+a.button {
     border: 1px solid currentcolor;
     box-shadow: 0 2px rgba(0, 0, 0, .2);
     padding: 5px 20px;
@@ -505,17 +505,17 @@ a.bouton {
     font-style: italic;
     outline: 0;    
 }
-a.bouton:hover {
+/* a.button:hover {
     background-color: #4E43C8;
     border-color: #4e43c8;
     color: #ddd;
     text-decoration: none;
-}
-a.bouton:active {
+} */
+/* a.button:active {
     text-decoration: none;
     box-shadow: 0 1px rgba(0, 0, 0, .3) inset;
     color: rgba(255, 255, 255, .4);
-}
+} */
 blockquote {
     font-style: italic;
     margin: 22px 0;
@@ -586,3 +586,4 @@ blockquote {
     0% { transform: translate(0, -60px); opacity: 0; }
     100% { transform: translate(0, 0); opacity: 1; }
 }
+
